@@ -105,8 +105,8 @@ $ git clone https://github.com/hyperledger/fabric.git
 
 $ cd fabric
 
-# Reset commit level to fabric v1.0.2
-$ git reset --hard 5fb31ddd24d6441b0d499b9bb211632800044512
+# Reset commit level to fabric v1.0.5
+$ git reset --hard 014d6befcf67f3787bb3d67ff34e1a98dc6aec5f
 
 # Compile and install fabric
 $ make
