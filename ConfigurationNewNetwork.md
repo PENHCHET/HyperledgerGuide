@@ -168,7 +168,7 @@ To create orderer genesis block, run the following commands
 ```
 export FABRIC_CFG_PATH=$PWD
 mkdir channel-artifacts
-configtxgen -profile FourOrgsOrdererGenesis -outputBlock ./channel-artifacts/genesis.
+configtxgen -profile FourOrgsOrdererGenesis -outputBlock ./channel-artifacts/genesis.block
 ```
 
 After we created the orderer genesis block it is a time to create channel configuration transaction.
