@@ -42,7 +42,15 @@ $ export PATH=$PATH:$GOROOT/bin
 $ sudo apt-get install libltdl-dev
 ```
 
-### ៣. ដំឡើង Docker
+### ៣. ដំឡើង CURL
+```
+$ sudo apt-get install -y curl
+
+# ពិនិត្យមើល curl version
+$ curl --version
+```
+
+### ៤. ដំឡើង Docker
 ```
 $ echo 'Removing docker docker-engine docker.io...'
 $ sudo apt-get remove docker docker-engine docker.io
@@ -67,18 +75,18 @@ $ sudo apt-get install -y build-essential
 $ sudo usermod -aG docker $(whoami)
 ```
 
-### ៤. ដំឡើង Docker Compose
+### ៥.. ដំឡើង Docker Compose
 ```
 $ sudo curl -o /usr/local/bin/docker-compose -L "https://github.com/docker/compose/releases/download/1.11.2/docker-compose-$(uname -s)-$(uname -m)"
 $ sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-### ៥. ដំឡើង Pip
+### ៦. ដំឡើង Pip
 ```
 $ sudo apt-get install python-pip 
 ```
 
-### ៦. ដំឡើង Git
+### ៧. ដំឡើង Git
 ```
 $ sudo apt-get install -y git
 
@@ -86,13 +94,7 @@ $ sudo apt-get install -y git
 $ git --version
 ```
 
-### ៧. ដំឡើង Curl
-```
-$ sudo apt-get install -y curl
 
-# ពិនិត្យមើល curl version
-$ curl --version
-```
 
 ## ជំហ៊ានចុងក្រោយនិយាយពីការដំឡើង Hyperledger Fabric 
 
